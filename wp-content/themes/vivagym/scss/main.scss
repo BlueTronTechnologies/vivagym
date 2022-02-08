@@ -1,0 +1,44 @@
+/*
+	Author: Ninjas For Hire
+	Author URL: http://www.ninjasforhire.co.za
+
+	Made in Cape Town ❤
+*/
+
+// required
+@import "inc/vars";
+@import "inc/font";
+@import "inc/base";
+
+// helpers
+@import "helpers/generic";
+@import "helpers/formidable";
+
+// templates
+@import "partials/general";
+@import "partials/header";
+@import "partials/banners";
+@import "partials/filter";
+@import "partials/main_column";
+@import "partials/sidebar";
+@import "partials/latest_blog";
+@import "partials/fitness_guides";
+
+// Landing Pages Template parts
+@import "pages/page_home";
+@import "pages/landing_facilities";
+@import "pages/landing_library";
+@import "pages/single_club";
+@import "pages/landing_timetables";
+@import "pages/landing_timetables_single";
+@import "pages/landing_single";
+@import "pages/landing_meet_the_team";
+@import "pages/single_blog";
+@import "pages/page_free_pass";
+@import "pages/page_contact";
+@import "pages/page_faq";
+
+
+@import "partials/footer";
+
+@import "forms/free_pass";

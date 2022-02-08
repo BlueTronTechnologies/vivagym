@@ -1,0 +1,33 @@
+.infusionsoft_ilp label {
+    width: 200px;
+    display: inline-block;
+}
+
+.infusionsoft_ilp form {
+    margin-top: 30px;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_more_text {
+    color: #888;
+    display: none;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_info:before {
+    background-color: rgba(127, 127, 127, 0.4);
+    border-radius: 100px;
+    color: #FFF;
+    content: "?";
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    width: 16px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.infusionsoft_ilp .infusionsoft_ilp_info:hover::before {
+    background-color: rgba(127, 127, 127, 0.7);
+}

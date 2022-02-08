@@ -1,0 +1,36 @@
+// breakpoints
+$screen-xs: 480px !default;
+$screen-sm: 768px !default;
+$screen-md: 1024px !default;
+$screen-lg: 1400px !default;
+
+
+$charcoal 	: #000;
+$grey1		: #bcbec0;
+$grey2		: #7c7c7d;
+$grey3		: #414042;
+
+$yellow1	: #ffc90d;
+// $yellow2	: #000;
+// $yellow3	: #000;
+
+$blue1		: #71c8c6;
+//$blue2		: #71c8c6;
+
+@mixin aniverse_normal {
+	font-family: "anivers",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@mixin aniverse_italic {
+	font-family: "anivers",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+@mixin aniverse_bold {
+	font-family: "anivers",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}

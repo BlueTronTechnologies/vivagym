@@ -1,0 +1,21 @@
+.team_landing {
+	.block {
+		.block_title {
+			text-align: center;
+			a {
+				text-transform: uppercase;
+				text-align: center;
+			}
+		}
+		.block_email {
+			text-align: center;
+			a {
+				font-size: 13px;
+				@include aniverse_normal;
+				text-decoration: none;
+				text-align: center;
+				color: #000;
+			}
+		}
+	}
+}

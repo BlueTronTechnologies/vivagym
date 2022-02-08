@@ -1,0 +1,108 @@
+/* base */
+
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	color: #000;
+	@include aniverse_normal;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	-webkit-text-stroke: 1px rgba(0,0,0,0);
+	background:url(../images/svg/page_bg.svg);
+}
+
+img {
+	border: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p, form, input, ul, ol, li, header, nav, footer, section {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, footer, section {
+	display: block;
+}
+
+textarea,
+button,
+input,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	outline: none;
+}
+
+h1 {
+	@include aniverse_bold;
+	font-size: 38px;
+
+}
+
+h2 {
+	@include aniverse_bold;
+	font-size: 33px;
+	line-height: 32px;
+}
+
+h3 {
+	@include aniverse_bold;
+	font-size: 24px;
+}
+
+h4 {
+	@include aniverse_bold;
+	font-size: 20px;
+}
+
+h5 {
+	@include aniverse_bold;
+	font-size: 16px;
+
+	a {
+		@include aniverse_bold;
+		font-size: 16px;
+	}
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+table,
+table td {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}

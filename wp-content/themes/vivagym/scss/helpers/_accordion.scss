@@ -1,0 +1,52 @@
+.nfh_accordion {
+	background: #e2f4f8;
+	border-bottom: 1px solid #c5c0bc;
+
+	p {
+		font-size: 18px;
+		padding: 0 0 15px;
+	}
+
+	> .nfh_accordion_trigger {
+		border-top: 1px solid #c5c0bc;
+		cursor: pointer;
+		font-size: 30px;
+		font-weight: 300;
+		padding: 15px 0;
+	}
+	
+	> .nfh_accordion_content {
+		//animation-fill-mode: both;
+	}
+
+	> .nfh_accordion_content.hide {
+		animation: nfh_accordion_keys_hide 0s;
+		animation-fill-mode: both;
+	}
+
+	> .nfh_accordion_content.show {
+		animation: nfh_accordion_keys_show 1.5s;
+		animation-fill-mode: both;
+	}
+	
+}
+
+@keyframes nfh_accordion_keys_hide {
+    from {
+        max-height: 9999px;
+    }
+    to {
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+@keyframes nfh_accordion_keys_show {
+    from {
+        max-height: 0;
+        overflow: hidden;
+    }
+    to {
+        max-height: 9999px;
+    }
+}

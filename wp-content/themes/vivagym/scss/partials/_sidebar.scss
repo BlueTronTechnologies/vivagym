@@ -1,0 +1,177 @@
+aside {
+	.blue {
+		background: $blue1;
+	}
+	.black {
+		background: #000;
+	}
+	.charcoal {
+		background: $grey3;
+		color: #fff;
+	}
+	.yellow {
+		background: $yellow1;
+		a {
+			color: #000;
+			text-transform: uppercase;
+
+			h3 {
+				color: #000
+			}
+		}
+	}
+
+	.block {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin: 0 0 10px;
+		padding: 22px 30px;
+
+		&.map {
+			padding: 0;
+		}
+
+		h3 {
+			font-size: 24px;
+			color: #fff;
+			padding: 0 0 18px;
+		}
+
+		p {
+			color: #fff;
+			text-align: center;
+		}
+		.ico {
+			text-align: center;
+			padding: 0 0 20px;
+		}
+
+		.profile_image {
+			background: url(../images/svg/profile_bg.svg) no-repeat 0 0 / cover;
+			height: 130px;
+			width: 130px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 0 8px;
+
+			img {
+			    border-radius: 100%;
+			    height: 80%;
+			    object-fit: cover;
+			    width: 80%;
+			}
+		}
+		ul {
+			li {
+				text-align: center;
+				a {
+					color: #fff;
+					text-align: center;
+					font-size: 19px;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.aside_social {
+			display: flex;
+			padding: 10px 0 0px;
+
+			li {
+				width: 30px;
+				margin: 0 7.5px;
+
+				svg,
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+
+		.club_info {
+			width: 100%;
+			color: #fff;
+			font-size: 19px;
+			div {
+				display: flex;
+				padding: 0 0 24px;
+
+				&:last-child {
+					padding: 0;
+				}
+
+				.icon {
+					width: 50px;
+
+					svg {
+						width: 23px;
+						height: auto;
+						path {
+							fill: #fff !important;
+						}
+					}
+				}
+
+				a {
+					font-size: 19px;
+					color: #fff
+				}
+			}
+		}
+		.button_container {
+			display: flex;
+
+			a {
+				margin: 20px 0;
+			}
+		}
+
+		form {
+			.form-field {
+				padding: 0 25px 6px !important;
+			}
+
+
+		}
+	}
+}
+
+form{
+	.select {
+	    position: relative;
+	    display: flex;
+
+		select {
+		    -moz-appearance: none;
+		    -webkit-appearance: none;
+		    @include aniverse_normal;
+		   border: none;
+		   box-shadow: none;
+		   padding: 10px 83px 10px 20px;
+		   border: none;
+		   width: 100%;
+		   font-size: 16px;
+
+		   @media (min-width: 850px) {
+			
+		   }
+
+
+		}
+
+		&:after {
+		    content: "";
+    		position: absolute;
+		    pointer-events: none;
+		    top: 50%;
+		    right: 12px;
+		    margin-top: -3px;
+		    border-left: 6px solid transparent;
+		    border-right: 6px solid transparent;
+		    border-top: 6px solid #000;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="34.798351mm"
+   height="34.799057mm"
+   viewBox="0 0 34.798351 34.799057"
+   version="1.1"
+   id="svg11535"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="play.svg">
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-74.07108,-149.31181)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-282.83172,726.01841)"
+       id="g4342"
+       clip-path="url(#clipPath4346)">
+      <g
+         id="g4362"
+         transform="translate(1078.06,1582.8229)">
+        <path
+           d="m 0,0 -24.66,-15.413 c -0.499,-0.311 -1.067,-0.469 -1.635,-0.469 -0.514,0 -1.028,0.129 -1.493,0.389 -0.981,0.542 -1.588,1.573 -1.588,2.694 v 30.826 c 0,1.121 0.607,2.153 1.588,2.697 0.978,0.546 2.178,0.511 3.128,-0.082 L 0,5.229 C 0.9,4.664 1.449,3.677 1.449,2.614 1.449,1.552 0.9,0.564 0,0 m -17.046,51.936 c -27.239,0 -49.321,-22.082 -49.321,-49.322 0,-27.238 22.082,-49.321 49.321,-49.321 27.238,0 49.32,22.083 49.32,49.321 0,27.24 -22.082,49.322 -49.32,49.322"
+           style="fill:#ffc90d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4364"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

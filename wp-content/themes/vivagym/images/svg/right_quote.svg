@@ -1,0 +1,56 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18.27883mm"
+   height="14.86006mm"
+   viewBox="0 0 18.278829 14.86006"
+   version="1.1"
+   id="svg37475"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="R_qt.svg">
+  <defs
+     id="defs37469">
+    <clipPath
+       id="clipPath25359"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path25357"
+         d="M 0,3087.842 H 1909.904 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="75.438003"
+     inkscape:cy="80.94025"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="1672"
+     inkscape:window-y="274"
+     inkscape:window-maximized="1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-166.65807,-159.07111)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path23783"
+       style="display:inline;fill:#ffc90d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       d="m 166.65807,171.95846 c 2.10397,-1.38041 3.94511,-4.01073 4.20829,-6.11505 -0.0663,0 -0.52635,0.0663 -0.85514,0.0663 -1.84114,0 -3.22192,-1.38113 -3.22192,-3.35386 0,-1.90677 1.57833,-3.48474 3.55071,-3.48474 2.16994,0 4.0767,1.77518 4.0767,4.99745 0,4.01073 -2.30117,7.69267 -5.32588,9.86261 z m 10.52019,0 c 2.10432,-1.38041 4.01073,-4.01073 4.20828,-6.11505 -0.066,0 -0.52599,0.0663 -0.85478,0.0663 -1.84115,0 -3.1563,-1.38113 -3.1563,-3.35386 0,-1.90677 1.51236,-3.48474 3.48509,-3.48474 2.16994,0 4.07635,1.77518 4.07635,4.99745 0,4.01073 -2.30117,7.69267 -5.32554,9.86261 z" />
+  </g>
+</svg>

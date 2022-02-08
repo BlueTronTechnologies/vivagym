@@ -1,0 +1,52 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="25"
+   height="21"
+   viewBox="0 0 4.0915164 3.5080583"
+   version="1.1"
+   id="svg37475"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="chat_box.svg">
+  <defs
+     id="defs37469" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="5.2193798"
+     inkscape:cy="10.794717"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="1672"
+     inkscape:window-y="274"
+     inkscape:window-maximized="1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-145.8293,-143.21847)">
+    <g
+       style="display:inline"
+       transform="matrix(0.35277777,0,0,-0.35277777,149.64671,143.9459)"
+       id="g23683">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23685"
+         style="fill:#02828d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 0,0 c -0.518,0.636 -1.221,1.139 -2.109,1.508 -0.889,0.369 -1.861,0.554 -2.913,0.554 -0.786,0 -1.537,-0.109 -2.252,-0.328 -0.717,-0.217 -1.333,-0.512 -1.852,-0.883 -0.518,-0.371 -0.93,-0.812 -1.236,-1.323 -0.306,-0.511 -0.459,-1.048 -0.459,-1.609 0,-0.647 0.195,-1.253 0.585,-1.819 0.39,-0.565 0.924,-1.04 1.602,-1.424 -0.048,-0.172 -0.103,-0.336 -0.168,-0.492 -0.065,-0.155 -0.123,-0.282 -0.176,-0.381 -0.05,-0.099 -0.121,-0.21 -0.21,-0.33 -0.087,-0.121 -0.155,-0.206 -0.2,-0.256 -0.046,-0.05 -0.12,-0.132 -0.223,-0.246 -0.104,-0.115 -0.17,-0.189 -0.201,-0.223 -0.004,-0.002 -0.022,-0.022 -0.052,-0.059 -0.03,-0.037 -0.045,-0.055 -0.045,-0.055 L -9.947,-7.424 C -9.97,-7.456 -9.979,-7.477 -9.978,-7.485 -9.975,-7.494 -9.979,-7.516 -9.99,-7.55 -10.001,-7.584 -10,-7.61 -9.987,-7.627 v -0.007 c 0.017,-0.078 0.055,-0.14 0.114,-0.188 0.058,-0.047 0.124,-0.067 0.197,-0.058 0.28,0.035 0.527,0.082 0.738,0.142 1.13,0.29 2.124,0.812 2.977,1.567 0.323,-0.035 0.637,-0.052 0.939,-0.052 1.052,0 2.024,0.184 2.913,0.554 0.888,0.369 1.591,0.871 2.109,1.507 0.518,0.637 0.777,1.33 0.777,2.081 C 0.777,-1.33 0.518,-0.636 0,0" />
+    </g>
+  </g>
+</svg>

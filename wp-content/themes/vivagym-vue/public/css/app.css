@@ -1,0 +1,73 @@
+/*
+    Author: Ninjas For Hire
+    Author URL: http://www.ninjasforhire.co.za
+
+    Made in Cape Town :)
+*/
+/* base */
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke: 1px transparent; }
+
+img {
+  border: 0; }
+
+h1, h2, h3, h4, h5, h6, p, form, input, ul, ol, li, header, nav, footer, section {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+
+header, nav, footer, section {
+  display: block; }
+
+textarea,
+button,
+input,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  outline: none; }
+
+textarea {
+  resize: none;
+  overflow: auto; }
+
+input:focus,
+textarea:focus {
+  outline: none; }
+
+table,
+table td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }

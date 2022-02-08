@@ -1,0 +1,125 @@
+.club_timetable {
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+		border-bottom: 1px solid $yellow1;
+		padding: 0 0 17px;
+		margin: 0 0 34px;
+
+		@media (min-width: $screen-sm) {
+		}
+
+		div {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			line-height: 14px;
+			padding: 0 0 20px;
+
+			@media (min-width: $screen-md) {
+				padding: 0 0 0px;
+			}
+		}
+	}
+}
+
+.single_club {
+	.benefits {
+		grid-column-gap: 25px !important;
+
+		.box_content {
+			padding: 45px 35px 37px !important;
+		}
+	}
+
+	.video {
+		.videowrapper {
+			.placeholder {
+				border: 0;
+			}
+		}
+	}
+
+	.member_comments {
+		padding: 0 0 14px;
+		.comment_row {
+			p, .comment_by {
+				font-size: 16px;
+				text-align: center;
+				padding: 0 0 27px;
+			}
+		}
+	}
+}
+
+.inline_banner {
+	padding: 31px 50px;
+	margin: 0 0 42px;
+	&.black {
+		background: #000;
+		text-align: center;
+
+		h4 {
+			color: #fff;
+			font-family: 'ProximaNova-Bold';
+			padding: 0 0 015px;
+		}
+		p {
+			color: #fff;
+			font-size: 15px;
+			font-family: 'ProximaNova-Regular';
+			font-weight: 500;
+			padding: 0 0 13px;
+		}
+	}
+}
+
+.block_container {
+	&.pt {
+		.grid {
+			grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+			grid-gap: 25px;
+			padding: 0 0 50px;
+
+			.block {
+				display: flex;
+				flex-direction: column;
+
+				.block_image {
+					flex-grow: 1;
+				}
+				h5 {
+					text-align: center;
+
+					&:after {
+						display: none;
+					}
+				}
+				.block_email {
+					text-align: center;
+					a {
+						color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+
+.trainers{
+	.block{
+		display: none !important;
+		&.featured{
+			display: block !important;
+		}
+	}
+
+
+	&.show{
+		.block{
+			display: block !important;
+			&.featured{
+				display: block !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.accordion-container {
+	border-bottom: 1px solid #000;
+	.accordion_row {
+		border-top: 1px solid #000;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+		.accord_title {
+			padding: 9px 27px 7px;
+			position: relative;
+			
+			&:after {
+				content: "";
+				width: 17px;
+				height: 17px;
+				background:url(../images/plus.png) no-repeat 0 0 / 100%;
+				position: absolute;
+				float: right;
+				right: 10px;
+				top: 10px;
+
+				@media (min-width: $screen-sm) {
+					position: relative;
+					right: 0;
+					top: 0;
+				}
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+		.accord_content {
+			display: none;
+			padding: 10px 27px 0;
+			p {
+				font-size: 14px;
+			}
+		}
+
+		&.open {
+			.accord_title {
+				&:after {
+					background:url(../images/minus.png) no-repeat center / 100%;
+				}
+			}
+		}
+	}
+}

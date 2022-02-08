@@ -1,0 +1,177 @@
+.banner {
+	&.spec1 {
+		.row {
+			max-width: 1260px;
+		}
+		.grid {
+			display: grid;
+			grid-template-areas:
+		      "banner_left"
+		      "banner_right";
+		    grid-template-columns: 1fr;
+		    grid-template-rows: auto;
+
+			  @media (min-width: $screen-sm) {
+			    grid-template-areas:
+			    "banner_left banner_right";
+			  	grid-template-columns: 2fr minmax(300px, 1fr);
+			  	grid-template-rows: auto 1fr;
+			  	grid-column-gap: 2px;
+			 
+			}
+			.col_left {
+				padding: 75px 30px;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				grid-area: banner_left;
+
+				@media (min-width: $screen-sm) {
+					padding: 0 80px;
+				}
+
+				h1 {
+				    @include aniverse_bold;
+				    background-color: $yellow1;
+				    clear: both;
+				    color: #000;
+				    float: left;
+				    font-size: 38px;
+				    margin: -1px 0;
+				    padding: 5px 7px;
+				    position: relative;
+				    text-transform: uppercase;
+				    width: auto;
+
+				    &:nth-child(2n) {
+						left: 20px;
+				    }
+				}
+
+				.button_container {
+					margin: 33px 0 0;
+					justify-content: flex-start;
+					a {
+						font-size: 18px;
+						@include aniverse_normal;
+						color: #000;
+						padding: 10px 15px;
+						text-align: center;
+					}
+				}
+			}
+
+			.col_right {
+				padding: 54px 75px 54px;
+				grid-area: banner_right;
+			}
+		}
+	}
+
+	&.spec2 {
+		padding: 0 0 22px;
+		img {
+			width: 100%;
+		}
+	}
+
+	&.spec3 {
+		position: relative;
+		margin: 0 0 22px;
+		img {
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.overlay {
+		    background: rgba(0,0,0,.5);
+		    height: 100%;
+		    position: absolute;
+		    width: 100%;
+		    z-index: 1;
+		}
+
+		h1 {
+			color: #fff;
+			font-size: 40px;
+			padding: 100px 0;
+			position: relative;
+			text-align: center;
+			z-index: 7;
+		}
+	}
+	&.spec4 {
+		position: relative;
+		margin: 0 0 22px;
+		img {
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.overlay {
+		    background: rgba(0,0,0,.5);
+		    height: 100%;
+		    position: absolute;
+		    width: 100%;
+		    z-index: 1;
+		}
+
+		.row {
+			position: relative;
+			z-index: 9;
+			padding: 50px 20px;
+
+			@media (min-width: $screen-sm) {
+				padding: 100px 0;
+			}
+		}
+
+		h1 {
+			text-align: left;
+			color: #fff;
+			z-index: 9;
+			position: relative;
+			font-size: 40px;
+		}
+
+		p {
+			font-size: 19px;
+			color: #fff;
+			padding: 0 0 35px;
+		}
+
+		.button_container {
+			justify-content: flex-start;
+		}
+	}
+
+	&.free_pass {
+		padding: 0 0 12px;
+		.block{
+			position: relative;
+
+			.overlay {
+			    background: rgba(0,0,0,.5);
+			    height: 100%;
+			    left: 0;
+			    position: absolute;
+			    top: 0;
+			    width: 100%;
+			    z-index: 1;
+			}
+			.title_main {
+				text-align: center;
+				z-index: 8;
+				h1 {
+					background:none;
+					color: #fff;
+					float: none;
+				}
+			}
+		}	
+	}
+}

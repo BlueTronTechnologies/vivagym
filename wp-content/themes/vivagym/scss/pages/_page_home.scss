@@ -1,0 +1,353 @@
+.banner_nav {
+	padding: 0 0 37px;
+	.grid {
+		padding: 20px 0 0;
+		display: grid;
+	    grid-template-rows: auto 1fr;
+	    grid-gap: 2px;
+		grid-template-areas: 
+		"box3"
+		"box1"
+		"box2";
+		grid-template-columns: 1fr;
+
+		@media (min-width: 600px) {
+
+			grid-template-areas: 
+			"box3 box3"
+           	"box1  box2"
+           	"box1  box2";
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 2px 2px;
+		}
+	    @media (min-width: $screen-sm) {
+	    	padding: 50px 0 0;
+		    grid-template-areas: "box1 box2 box3";
+		    grid-template-columns: 1.25fr minmax(250px, 0.75fr) 2fr;
+		    grid-gap: 0px 2px;
+		}
+
+	      .box1 {
+	      	background: #000;
+	      	grid-area: box1;
+	      	display: flex;
+	      	flex-direction: column;
+	      	align-items: center;
+	      	justify-content: center;
+	      	padding: 25px 0;
+
+	      	@media (min-width: $screen-sm) {
+	      		padding: 0;
+	      	}
+			
+			h3 {
+				color: #fff;
+				text-transform: uppercase;
+			}
+
+			.button_container {
+				margin: 20px 0 0;
+			}
+	      }
+	      .box2 {
+	      	background: $yellow1;
+	      	grid-area: box2;
+	      	display: flex;
+	      	flex-direction: column;
+	      	align-items: center;
+	      	justify-content: center;
+	      	padding: 25px 0;
+
+	      	@media (min-width: $screen-sm) {
+	      		
+	      	}
+	      	@media (min-width: $screen-md) {
+	      		padding: 0;
+	      	}
+			
+			h3 {
+				color: #000;
+				text-transform: uppercase;
+				padding: 14px 0 0;
+				text-align: center;
+			}
+
+	      }
+	      .box3 {
+	      	grid-area: box3;
+
+	      	img {
+	      		width: 100%;
+	      		display: block;
+	      	}
+	    }
+	}
+}
+.section {
+	.grid {
+		&.benefits {
+			grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+			grid-gap: 2px;
+			padding: 0 0 41px;
+
+			// @media (min-width: $screen-sm) {
+			// grid-column-gap: 2px;
+			// }
+
+			.box {
+				position: relative;
+				display: flex;
+
+				.overlay {
+					background:rgba(0,0,0,0.6);
+					height: 100%;
+					position: absolute;
+					width: 100%;
+					z-index: 1;
+				}
+
+				.box_content {
+					align-items: center;
+					display: flex;
+					flex-direction: column;
+					flex: 1;
+					padding: 45px 50px 37px;
+					position: relative;
+					z-index: 2;
+					@media (min-width: 825px) {
+						padding: 45px 100px 37px;
+					}
+				}
+
+				h4 {
+					color: #fff;
+					padding: 0 0 21px;
+				}
+
+				p {
+					@include aniverse_normal;
+					color: #fff;
+					font-size: 15px;
+					text-align: center;
+				}
+
+				.button_container {
+					margin-top: auto;
+					padding: 25px 0 0;
+				}
+			}
+		}
+
+		&.social_proof {
+			grid-template-columns: 1fr 3fr 1fr;
+			padding: 0 0 55px;
+				.qt_l {
+					display: flex;
+					justify-content: flex-end;
+					padding: 0 0 0 20px;
+					@media (min-width: $screen-sm) {
+						padding: 0;
+					}
+
+					svg {
+						width: 100%;
+						@media (min-width: $screen-sm) {
+							margin: 0 39px 0 0;
+						}
+					}
+				}
+				.qt_r {
+					display: flex;
+					align-items: flex-end;
+					justify-content: flex-start;
+					padding: 0 20px 0 0;
+
+					@media (min-width: $screen-sm) {
+						padding: 0;
+					}
+
+					svg {
+						width: 100%;
+						@media (min-width: $screen-sm) {
+							margin: 0 0 0 28px;
+						}
+					}
+				}
+
+			.social_proof_inner {
+				grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+				grid-column-gap: 78px;
+
+				.box {
+					align-items: center;
+					display: flex;
+					flex-direction: column;
+
+					.box_image {
+						padding: 0 0 31px;
+					}
+
+					h5 {
+						text-align: center;
+						padding: 0 0 29px;
+					}
+
+					p {
+						@include aniverse_normal;
+						font-size: 14px;
+						text-align: center;
+						padding: 0 0 21px;
+					}
+
+					.yellow_link {
+						@include aniverse_bold;
+						color: $yellow1;
+						font-size: 14px;
+						margin-top: auto;
+						text-transform: uppercase;
+					}
+				}
+			}
+
+
+		}
+	}
+	.video {
+		padding: 0 0 41px;
+		.videowrapper {
+			.placeholder {
+			  align-items: center;
+			  bottom:0;
+			  display:flex;
+			  justify-content: center;
+			  left:0;
+			  position:absolute;
+			  right:0;
+			  top:0;
+			  z-index: 8;
+			  border-bottom: 4px solid $yellow1;
+
+			  .overlay {
+			  		background:rgba(0,0,0,0.6);
+					height: 100%;
+					position: absolute;
+					width: 100%;
+					z-index: 1;
+			  	}
+
+			  	.prompt {
+			  		position: relative;
+			  		z-index: 2;
+
+			  		&:hover {
+			  			cursor: pointer;
+			  		}
+			  	}
+			}
+		}
+	}
+
+	&.workout_guides {
+		background: #fff;
+		margin: 0 0 41px;
+
+		.grid {
+			grid-template-columns: 1fr;
+			padding: 0 20px;
+			@media (min-width: $screen-sm) {
+				grid-template-columns: 1fr 3fr 1fr;
+				padding: 0;
+			}
+
+
+			.l_corner {
+				position: relative;
+
+				&:before {
+					content: "";
+					width: 8px;
+					height: 90px;
+					background: $yellow1;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+
+				&:after {
+					content: "";
+					width: 85px;
+					height: 8px;
+					background: $yellow1;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+			.r_corner {
+				position: relative;
+
+				&:before {
+					content: "";
+					width: 8px;
+					height: 90px;
+					background: $yellow1;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+
+				&:after {
+					content: "";
+					width: 85px;
+					height: 8px;
+					background: $yellow1;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+			}
+
+			.workout_guides_inner {
+				display: grid;
+				grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+				grid-column-gap: 150px;
+
+				.box {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					padding: 37px 0;
+
+					h3 {
+						font-family: 'ProximaNova-Bold';
+						font-weight: normal;
+					}
+
+					.slim_desc {
+						font-size: 24px;
+						font-family: 'ProximaNova-Regular';
+						font-style: normal;
+						font-weight: 300;
+						line-height: 0.75;
+						padding: 0 0 29px;
+					}
+
+					.desc {
+						font-size: 17px;
+						font-family: 'ProximaNova-Regular';
+						font-style: normal;
+						font-weight: 500;
+						padding: 0 0 19px;
+					}
+
+					.button_container {
+
+					}
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

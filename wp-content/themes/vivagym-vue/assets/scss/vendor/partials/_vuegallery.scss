@@ -1,0 +1,30 @@
+.gallery_imgs{
+	display: flex;
+	width:100%;
+	flex-direction:row;
+	flex-wrap: wrap;
+	margin:0 0 30px 0!important;
+
+	li{
+		list-style:none!important;
+		padding:10px;
+		width:100%;
+		margin:0 !important;
+
+		@media (min-width: $screen-xs) {
+			width:50%;
+		}
+		@media (min-width: $screen-sm) {
+			width:33.3%;
+		}
+
+		&:before{
+			display:none;
+		}
+
+		img{
+			max-width:100%;
+			height:auto;
+		}
+	}
+}

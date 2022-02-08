@@ -1,0 +1,16 @@
+.frm_activecampaign_icon {
+    background: url('icon-activecampaign.png') no-repeat left center;
+    width: 32px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.frm_activecampaign_icon .frm_active_action{
+	opacity: 1;
+}
+.frm_activecampaign_icon .frm_inactive_action{
+	opacity: .4;
+}
+.frm_activecampaign_loading_field{
+	visibility: visible;
+}

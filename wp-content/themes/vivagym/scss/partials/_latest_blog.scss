@@ -1,0 +1,138 @@
+.section {
+	&.latest_blog {
+		&.home {
+			.row_header {
+				align-items: center;
+
+				.row_tag {
+					background: #000;
+					color: #fff;
+					font-size: 24px;
+					left: 0px;
+					padding: 2px 16px;
+					margin: 0 0 13px;
+					position: relative;
+					@media (min-width: $screen-sm) {
+						left: 44px;
+					}
+				}
+			}
+			.grid {
+				grid-template-columns: 1fr;
+				@media (min-width: $screen-md) {
+					grid-template-columns: 1fr 3fr 1fr;
+				}
+
+
+				.blog_inner {
+					grid-column: 2 / 3;
+				}
+			}
+			.button_container {
+				justify-content: center;
+			}
+		}
+
+		.row_header {
+			align-items: center;
+			padding: 0 20px 43px;
+
+			@media (min-width: $screen-sm) {
+				align-items: flex-start;
+			}
+
+			@media (min-width: $screen-md) {
+				padding: 0 0 43px;
+			}
+
+			.row_tag {
+				color: #000;
+				background:none;
+				left: 0;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.grid {
+			grid-template-columns: 1fr;
+			padding: 0 0 38px;
+			@media (min-width: $screen-sm) {
+				grid-template-columns: 3fr 1fr;
+			}
+		}
+		.button_container {
+			display: flex;
+			padding: 0 0 54px;
+			justify-content: center;
+
+			@media (min-width: $screen-sm) {
+				align-items: flex-start;
+			}
+
+			a {
+				font-family: 'ProximaNova-Bold';
+				font-weight: normal;
+			}
+		}
+	}
+}
+.blog_inner {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+	grid-column-gap: 20px;
+	padding: 0 20px;
+
+	@media (min-width: $screen-sm) {
+		grid-column-gap: 76px;
+		padding: 0 20px;
+
+	}
+	@media (min-width: $screen-md) {
+		grid-column-gap: 76px;
+		padding: 0px;
+
+	}
+
+	.block {
+		padding: 0 0 50px;
+		@media (min-width: $screen-sm) {
+			padding: 0;
+		}
+
+		&:last-child {
+			padding: 0;
+		}
+
+		.block_image {
+			padding: 0 0 26px !important;
+			img {
+				width: 100%;
+			}
+		}
+		.block_title {
+			padding: 0 0 3px !important;
+			a {
+				font-family: 'ProximaNova-Bold';
+				font-weight: normal;
+				color: #000;
+			}
+		}
+		.block_meta {
+			font-family: 'ProximaNova-Bold';
+			font-weight: normal;
+			font-size: 14px;
+			padding: 0 0 24px;
+
+			a {
+				font-family: 'ProximaNova-Bold';
+				font-weight: normal;
+				font-size: 14px;
+				color: #000;
+			}
+		}
+		.block_excerpt {
+			font-family: 'ProximaNova-Regular';
+			font-size: 14px;
+		}
+	}
+}

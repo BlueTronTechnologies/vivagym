@@ -1,0 +1,52 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14"
+   height="14"
+   viewBox="0 0 3.8816137 3.8812611"
+   version="1.1"
+   id="svg37475"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="viva_ico.svg">
+  <defs
+     id="defs37469" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="9.054851"
+     inkscape:cy="10.44963"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="1672"
+     inkscape:window-y="274"
+     inkscape:window-maximized="1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-144.8145,-142.75396)">
+    <g
+       style="display:inline"
+       transform="matrix(0.35277777,0,0,-0.35277777,146.75548,142.75396)"
+       id="g25261">
+      <path
+         inkscape:connector-curvature="0"
+         id="path25263"
+         style="fill:#fefefe;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 0,0 c -3.038,0 -5.502,-2.462 -5.502,-5.502 0,-3.037 2.464,-5.5 5.502,-5.5 3.038,0 5.501,2.463 5.501,5.5 C 5.501,-2.462 3.038,0 0,0 M 3.642,-4.716 1.652,-7.181 0.276,-8.886 c -0.152,-0.189 -0.4,-0.189 -0.553,0 l -1.375,1.705 -1.99,2.465 c -0.446,0.553 -0.359,1.363 0.193,1.808 0.553,0.447 1.363,0.361 1.808,-0.193 l 1.557,-1.929 c 0.047,-0.056 0.121,-0.056 0.167,0 l 1.557,1.929 c 0.447,0.554 1.256,0.64 1.809,0.193 0.553,-0.445 0.639,-1.255 0.193,-1.808" />
+    </g>
+  </g>
+</svg>
